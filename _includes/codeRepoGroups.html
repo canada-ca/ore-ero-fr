@@ -1,0 +1,64 @@
+<div class="row">
+  <ul class="list-unstyled">
+  {%- for levels in site.data.i18n.administrations -%}
+    {%- assign level = levels[0] -%}
+    {%- if level == 'others' -%}
+      {%- continue -%}
+    {%- else -%}
+    <li>
+      <details>
+        <summary>{{ site.data.i18n.administrations[level][page.lang] }}</summary>
+        <div class="list-group">
+          {%- assign repo_arr = "" | split: ',' -%}
+          {%- assign admin_arr = "" | split: ',' -%}
+
+          {%- for govLevels in site.data.code -%}
+            {%- for admins in govLevels[1] -%}
+              {%- for release in admins[1].releases -%}
+                {%- assign administration = site.data.administrations[level] | where: "code", admins[1].adminCode -%}
+                {%- if administration[0].name[page.lang] != nil -%}
+                  {%- if release.repositoryURL[page.lang] != nil -%}
+                    {%- assign repo_split = release.repositoryURL[page.lang] | remove: "https://" | split: "/" -%}
+                    {%- if repo_split.size == 3 -%}
+                      {%- assign repo_url = repo_split[1] | append: "/" | append: repo_split[0] -%}
+                      {%- assign admin_url = administration[0].name[page.lang] | append: "/" | append: repo_split[1] | append: "/" | append: repo_split[0] -%}
+                    {%- elsif repo_split.size == 4 -%}
+                      {%- assign repo_url = repo_split[2] | append: "/" | append: repo_split[1] | append: "/" | append: repo_split[0] -%}
+                      {%- assign admin_url = administration[0].name[page.lang] | append: "/" | append: repo_split[2] | append: "/" | append: repo_split[1] | append: "/" | append: repo_split[0] -%}
+                    {%- endif -%}
+                    {%- assign repo_arr = repo_arr | push: repo_url -%}
+                    {%- assign admin_arr = admin_arr | push: admin_url -%}
+                  {%- endif -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          {%- endfor -%}
+
+          {%- assign repo_arr = repo_arr | sort_natural | uniq -%}
+          {%- assign admin_arr = admin_arr | sort_natural | uniq -%}
+
+          {%- for repo in repo_arr -%}
+            {%- assign repo_split = repo | split: "/" -%}
+            {%- if repo_split.size == 2 -%}
+            <a href="{{ "https://" | append: repo_split[1] | append: "/" | append: repo_split[0] }}" target="_blank">{{ repo_split[0] | capitalize }}</a>
+            {%- elsif repo_split.size == 3 -%}
+            <a href="{{ "https://" | append: repo_split[2] | append: "/" | append: repo_split[1] | append: "/" | append: repo_split[0] }}" target="_blank">{{ repo_split[0] | capitalize }}</a>
+            {%- endif -%}
+            <ul>
+              {%- for admin in admin_arr -%}
+                {%- if admin contains repo -%}
+                {%- assign admin_name = admin | split: "/" -%}
+                <li>{{ admin_name[0] }}</li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+          {%- else -%}
+            {{ site.data.i18n.groups.notFound[page.lang] }}
+          {%- endfor -%}
+        </div>
+      </details>
+    </li>
+    {%- endif -%}
+  {%- endfor -%}
+  </ul>
+</div>

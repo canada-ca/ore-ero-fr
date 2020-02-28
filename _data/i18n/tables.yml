@@ -1,0 +1,100 @@
+---
+administration:
+  en: Administration
+  fr: Administration
+administrations:
+  en: Administration
+  fr: Administration
+category:
+  en: Category
+  fr: Catégorie
+clear:
+  en: Clear
+  fr: Effacer
+codeRepo:
+  en: Code repo
+  fr: Dépôt de code
+contactPhone:
+  en: Contact phone
+  fr: Numéro du contact
+description:
+  en: Description
+  fr: Description
+filter:
+  en: Filter
+  fr: Filtrer
+filterOptions:
+  en: Filter Options
+  fr: Options de filtrage
+homepage:
+  en: Homepage
+  fr: Page d'accueil
+languages:
+  en: Language
+  fr: Langage
+licence:
+  en: Licence
+  fr: Licence
+team:
+  en: Team
+  fr: Équipe
+partners:
+  en: Partner(s)
+  fr: Partenaire(s)
+partnership: &projectName
+  en: Project name
+  fr: Nom du project
+  searchPeriod:
+    title:
+      en: 'Search period: '
+      fr: 'Période de recherche de partenaires :'
+    beginning:
+      en: from
+      fr: du
+    end:
+      en: to
+      fr: au
+projectName: *projectName
+relatedCode:
+  en: Related Code
+  fr: Code Associé
+software:
+  en: Software
+  fr: Logiciel
+standard:
+  en: Standard
+  fr: Norme
+status:
+  en: Status
+  fr: Statut
+tag:
+  en: Tag
+  fr: Étiquette
+usage:
+  en: Usage
+  fr: Utilisation
+usedBy:
+  en: Is being used by
+  fr: Est utilisé par
+design:
+  en: Design
+  fr: Design
+designType:
+  en: Design type(s)
+  fr: Type(s) de design
+designStatus:
+  en: Design status
+  fr: Statut du design
+lightbox:
+  sourceCode:
+    en: Source code
+    fr: Code source
+  contact:
+    en: Contact
+    fr: Contact
+  beingUsed:
+    en: 'Is being used by:'
+    fr: 'Est utilisé par :'
+  website:
+    en: 'Website:'
+    fr: 'Site internet:'

@@ -1,0 +1,50 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: Web browser developed by Mozilla Foundation.
+    fr: Navigateur Web développé par la Fondation Mozilla.
+category: '43232100'
+homepageURL:
+  en: 'https://www.mozilla.org/en-US/firefox/'
+  fr: 'https://www.mozilla.org/fr/firefox/'
+licences:
+  - URL:
+      en: 'https://www.mozilla.org/en-US/MPL/2.0/FAQ/'
+      fr: 'https://www.mozilla.org/en-US/MPL/2.0/FAQ/'
+    spdxID: MPL-2.0
+name:
+  en: Firefox
+  fr: Firefox
+tags:
+  en:
+    - Web browser
+    - Desktop
+    - Mobile
+  fr:
+    - Navigateur Web
+    - Poste de travail
+    - Mobile
+administrations:
+  - adminCode: pch
+    uses:
+      - contact:
+          email: sebastien.lemay@hrsdc-rhdcc.gc.ca
+        date:
+          started: '2019-05-06'
+          metadataLastUpdated: '2019-12-09'
+  - adminCode: esdc-edsc
+    uses:
+      - contact:
+          email: sebastien.lemay@hrsdc-rhdcc.gc.ca
+        date:
+          started: '2019-07-06'
+          metadataLastUpdated: '2019-12-09'
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: noreply@canada.ca
+          name: AAFC-AAC
+        date:
+          started: '1900-01-01'
+          metadataLastUpdated: '2020-01-14'

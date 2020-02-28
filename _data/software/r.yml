@@ -1,0 +1,53 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: >-
+      R is a programming language environment for statistical computing and
+      graphics supported by the R Foundation for Statistical Computing.
+    fr: >-
+      R est un langage de programmation et un environnement pour le calcul
+      statistique et les graphiques pris en charge par la Fondation R pour le
+      calcul statistique.
+category: '43232400'
+homepageURL:
+  en: 'https://www.r-project.org/'
+  fr: 'https://www.r-project.org/'
+licences:
+  - URL:
+      en: 'https://www.r-project.org/COPYING'
+      fr: 'https://www.r-project.org/COPYING'
+    spdxID: GPL-2.0-only
+name:
+  en: R
+  fr: R
+tags:
+  en:
+    - Programming Language
+  fr:
+    - Langage de programmation
+administrations:
+  - adminCode: tbs-sct
+    uses:
+      - contact:
+          email: vivian.nobrega@tbs-sct.gc.ca
+          name: Vivian Nobrega
+        date:
+          started: '2019-09-24'
+          metadataLastUpdated: '2019-09-24'
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: noreply@canada.ca
+          name: AAFC-AAC
+        date:
+          started: '1900-01-01'
+          metadataLastUpdated: '2020-01-14'
+  - adminCode: eccc
+    uses:
+      - contact:
+          email: noreply@canada.ca
+          name: ECCC-ECCC
+        date:
+          started: '2010-01-01'
+          metadataLastUpdated: '2020-01-31'

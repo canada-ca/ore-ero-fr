@@ -1,0 +1,54 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: The Linux kernel is a Unix-like computer operating system kernel.
+    fr: Le noyau Linux est un noyau de système d'exploitation de type UNIX.
+category: '43233000'
+homepageURL:
+  en: 'https://www.linux.org'
+  fr: 'https://www.linux.org'
+licences:
+  - URL:
+      en: 'https://www.kernel.org/doc/html/v4.17/process/license-rules.html'
+      fr: 'https://www.kernel.org/doc/html/v4.17/process/license-rules.html'
+    spdxID: GPL-2.0-only
+name:
+  en: Linux
+  fr: Linux
+tags:
+  en:
+    - Operating system kernel
+  fr:
+    - Noyau de système d'exploitation
+administrations:
+  - adminCode: tbs-sct
+    uses:
+      - contact:
+          email: ilia.salem@tbs-sct.gc.ca
+        date:
+          started: '2019-05-06'
+          metadataLastUpdated: '2019-05-15'
+  - adminCode: city-of-montreal-qc
+    uses:
+      - contact:
+          email: libre@ville.montreal.qc.ca
+        date:
+          started: '2010-01-01'
+          metadataLastUpdated: '2019-09-04'
+  - adminCode: ssc-spc
+    uses:
+      - contact:
+          email: ssc.itpro-approti.spc@canada.ca
+          name: SSC IT Procurement
+        date:
+          started: '2017-09-01'
+          metadataLastUpdated: '2019-10-07'
+  - adminCode: eccc
+    uses:
+      - contact:
+          email: noreply@canada.ca
+          name: ECCC-ECCC
+        date:
+          started: '2010-01-01'
+          metadataLastUpdated: '2020-01-30'

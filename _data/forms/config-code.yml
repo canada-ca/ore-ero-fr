@@ -1,0 +1,35 @@
+---
+
+id: code
+
+formGroups:
+  - preset: adminCode
+  - preset: empty
+    title: releases
+    param: {start: true}
+  - preset: selectCode
+  - preset: team
+  - preset: status
+    param: {design: false}
+  - preset: description
+  - preset: category
+  - preset: tags
+  - preset: contact
+  - preset: partners
+  - widget: string
+    title: date
+    param: {type: date, rule: dateISO}
+  - widget: string-i18n
+    title: repositoryUrl
+    param: {type: url}
+  - preset: homepageURL
+    param: {type: url, required: false}
+  - widget: string-i18n
+    title: downloadUrl
+    param: {type: url, required: false}
+  - preset: licences
+    param: {more: true}
+  - preset: languages
+  - preset: relatedCode
+    param: {more: true}
+  - preset: empty

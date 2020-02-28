@@ -1,0 +1,91 @@
+---
+schemaVersion: '1.0'
+adminCode: ab
+releases:
+  - contact:
+      email: open@gov.ab.ca
+    date:
+      created: '2016-07-05'
+      metadataLastUpdated: '2018-04-25'
+    description:
+      whatItDoes:
+        en: Dataset scheming extension used on open.alberta.ca
+        fr: Extension du schéma de données utilisée dans open.alberta.ca
+    category: '43232300'
+    name:
+      en: ckanext-ab_scheming
+      fr: ckanext-ab_scheming
+    licences:
+      - URL:
+          en: 'https://github.com/abgov/ckanext-ab_scheming/blob/master/LICENSE'
+          fr: 'https://github.com/abgov/ckanext-ab_scheming/blob/master/LICENSE'
+        spdxID: AGPL-3.0-only
+    repositoryURL:
+      en: 'https://github.com/abgov/ckanext-ab_scheming'
+      fr: 'https://github.com/abgov/ckanext-ab_scheming'
+    tags:
+      en:
+        - CKAN Extension
+      fr:
+        - Extension CKAN
+    languages:
+      - Python
+    status: Maintained
+  - contact:
+      email: open@gov.ab.ca
+    date:
+      created: '2016-07-05'
+      metadataLastUpdated: '2017-05-03'
+    description:
+      whatItDoes:
+        en: Ckan extension developed for use on open.alberta.ca
+        fr: Extension Ckan développée pour être utilisée dans open.alberta.ca
+    category: '43232300'
+    name:
+      en: ckanext-open_alberta
+      fr: ckanext-open_alberta
+    licences:
+      - URL:
+          en: 'https://github.com/abgov/ckanext-open_alberta/blob/master/LICENSE'
+          fr: 'https://github.com/abgov/ckanext-open_alberta/blob/master/LICENSE'
+        spdxID: AGPL-3.0-only
+    repositoryURL:
+      en: 'https://github.com/abgov/ckanext-open_alberta'
+      fr: 'https://github.com/abgov/ckanext-open_alberta'
+    tags:
+      en:
+        - CKAN Extension
+      fr:
+        - Extension CKAN
+    languages:
+      - Python
+    status: Maintained
+  - contact:
+      email: open@gov.ab.ca
+    date:
+      created: '2016-08-03'
+      metadataLastUpdated: '2016-08-03'
+    description:
+      whatItDoes:
+        en: Ckan Geo Map Viewer Extension
+        fr: Extension Ckan de la carte géographique
+    category: '43233500'
+    name:
+      en: ckanext-geomapviewer
+      fr: ckanext-geomapviewer
+    licences:
+      - URL:
+          en: 'https://github.com/abgov/ckanext-geomapviewer/blob/master/LICENSE'
+          fr: 'https://github.com/abgov/ckanext-geomapviewer/blob/master/LICENSE'
+        spdxID: AGPL-3.0-only
+    repositoryURL:
+      en: 'https://github.com/abgov/ckanext-geomapviewer'
+      fr: 'https://github.com/abgov/ckanext-geomapviewer'
+    tags:
+      en:
+        - CKAN Extension
+      fr:
+        - Extension CKAN
+    languages:
+      - Python
+    status: Maintained

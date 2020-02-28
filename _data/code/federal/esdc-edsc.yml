@@ -1,0 +1,104 @@
+---
+schemaVersion: '1.0'
+adminCode: esdc-edsc
+releases:
+  - contact:
+      email: calvin.rodo@hrsdc-rhdcc.gc.ca
+    date:
+      created: '2019-02-13'
+      metadataLastUpdated: '2019-02-21'
+    description:
+      whatItDoes:
+        en: A dashboard to show expose metrics on software projects at ESDC
+        fr: >-
+          Un tableau de bord pour afficher les métriques d'exposition sur les
+          projets logiciels d'EDSC
+    category: '43232400'
+    name:
+      en: AppHub
+      fr: HubApp
+    licences:
+      - URL:
+          en: 'https://github.com/esdc-devx/AppHub/blob/master/LICENSE'
+          fr: 'https://github.com/esdc-devx/AppHub/blob/master/LICENSE'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/esdc-devx/AppHub'
+      fr: 'https://github.com/esdc-devx/AppHub'
+    tags:
+      en:
+        - Dashboard
+      fr:
+        - Tableau de bord
+  - contact:
+      email: calvin.rodo@hrsdc-rhdcc.gc.ca
+    date:
+      created: '2019-02-13'
+      metadataLastUpdated: '2019-02-21'
+    description:
+      whatItDoes:
+        en: A .Net test app for the Code Coverage reporting dashboard
+        fr: >-
+          Une application de test .Net pour le tableau de bord de rapports de
+          couverture de code
+    category: '43232400'
+    name:
+      en: .Net Code Coverage Demo
+      fr: Démo de couverture de code .Net
+    licences:
+      - URL:
+          en: 'https://github.com/esdc-devx/DotNetCCDemo/blob/master/LICENSE'
+          fr: 'https://github.com/esdc-devx/DotNetCCDemo/blob/master/LICENSE'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/esdc-devx/DotNetCCDemo'
+      fr: 'https://github.com/esdc-devx/DotNetCCDemo'
+    tags:
+      en:
+        - Demo
+      fr:
+        - Demo
+  - contact:
+      email: nc-sgdc-cdts-gd@hrsdc-rhdcc.gc.ca
+      name: CDTS info tracker @ ESDC Web Standards Centre of Expertise
+    date:
+      created: '2020-01-16'
+      metadataLastUpdated: '2020-01-31'
+    description:
+      whatItDoes:
+        en: >-
+          The purpose of the CDTS is essentially to deliver the presentation
+          layer of the Canada.ca theme or Intranet.canada.ca theme to web
+          assets.
+        fr: >-
+          L’objectif de la SGDC est de fournir la couche de présentation des
+          thèmes Canada.ca et intranet.canada.ca aux actifs Web.
+    category: '43232400'
+    name:
+      en: CDTS
+      fr: SGDC
+    licences:
+      - URL:
+          en: 'https://github.com/wet-boew/cdts-sgdc/blob/master/LICENSE'
+          fr: 'https://github.com/wet-boew/cdts-sgdc/blob/master/LICENSE'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/wet-boew/cdts-sgdc'
+      fr: 'https://github.com/wet-boew/cdts-sgdc'
+    tags:
+      en:
+        - WET-BOEW
+      fr:
+        - WET-BOEW
+    downloadURL:
+      en: 'https://github.com/wet-boew/cdts-sgdc/releases'
+      fr: 'https://github.com/wet-boew/cdts-sgdc/releases'
+    homepageURL:
+      en: 'https://cenw-wscoe.github.io/sgdc-cdts/'
+      fr: 'https://cenw-wscoe.github.io/sgdc-cdts/'
+    languages:
+      - JavaScript
+      - HTML
+      - CSS
+      - CoffeeScript
+    status: Maintained

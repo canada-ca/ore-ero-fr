@@ -1,0 +1,513 @@
+---
+schemaVersion: '1.0'
+adminCode: tbs-sct
+releases:
+  - contact:
+      email: gcconnex@tbs-sct.gc.ca
+    date:
+      created: '2014-08-21'
+      metadataLastUpdated: '2019-01-31'
+    description:
+      whatItDoes:
+        en: GC digital collaboration platform (GCconnex and GCcollab)
+        fr: Plateforme de collaboration numérique du GC (GCconnex and GCcollab)
+    category: '43233500'
+    name:
+      en: GCconnex
+      fr: GCconnex
+    licences:
+      - URL:
+          en: >-
+            https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt
+          fr: >-
+            https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt
+        spdxID: GPL-2.0-only
+    repositoryURL:
+      en: 'https://github.com/gctools-outilsgc/gcconnex'
+      fr: 'https://github.com/gctools-outilsgc/gcconnex'
+    tags:
+      en:
+        - Collaboration
+        - Social
+      fr:
+        - Collaboration
+        - Social
+    languages:
+      - PHP
+      - MySQL
+    team:
+      en: Digital Enablement Division
+      fr: Division de la mobilisation numérique
+    relatedCode:
+      - URL:
+          en: 'https://github.com/Elgg/Elgg'
+          fr: 'https://github.com/Elgg/Elgg'
+        name:
+          en: Elgg
+          fr: Elgg
+    status: Maintained
+  - contact:
+      email: cds-snc@tbs-sct.gc.ca
+    date:
+      created: '2017-04-09'
+      metadataLastUpdated: '2019-01-31'
+    description:
+      whatItDoes:
+        en: >-
+          Both digital.canada.ca and numerique.canada.ca are published from this
+          repository.
+        fr: >-
+          Digital.canada.ca et numerique.canada.ca sont publiés à partir de ce
+          repository.
+    category: '43232100'
+    name:
+      en: CDS Website
+      fr: Site Web SNC
+    licences:
+      - URL:
+          en: 'https://github.com/cds-snc/digital-canada-ca/blob/master/LICENSE.txt'
+          fr: 'https://github.com/cds-snc/digital-canada-ca/blob/master/LICENSE.txt'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/cds-snc/digital-canada-ca'
+      fr: 'https://github.com/cds-snc/digital-canada-ca'
+    tags:
+      en:
+        - Website
+      fr:
+        - Site Web
+    team:
+      en: Canadian Digital Service
+      fr: Service numérique canadien
+  - contact:
+      email: wet-boew@tbs-sct.gc.ca
+    date:
+      created: '2013-08-11'
+      metadataLastUpdated: '2019-01-31'
+    description:
+      whatItDoes:
+        en: >-
+          Building websites that are accessible, usable, interoperable, mobile
+          friendly and multilingual
+        fr: >-
+          Construire des sites Web accessibles, faciles d'emploi,
+          interopérables, optimisés pour les appareils mobiles et multilingues
+    category: '43232100'
+    name:
+      en: Web Experience Toolkit (WET)
+      fr: Boîte à outils de l'expérience Web (BOEW)
+    licences:
+      - URL:
+          en: 'https://github.com/wet-boew/wet-boew/blob/master/License-en.txt'
+          fr: 'https://github.com/wet-boew/wet-boew/blob/master/Licence-fr.txt'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/wet-boew/wet-boew'
+      fr: 'https://github.com/wet-boew/wet-boew'
+    tags:
+      en:
+        - Frontend
+        - Website
+      fr:
+        - Interface
+        - Site Web
+  - contact:
+      email: Christopher.Jaja@tbs-sct.gc.ca
+      name: Christopher Jaja
+    date:
+      created: '2012-12-09'
+      metadataLastUpdated: '2018-03-26'
+    description:
+      whatItDoes:
+        en: Government of Canada CKAN Extension
+        fr: Extension à CKAN du Gouvernement du Canada
+    category: '43232300'
+    name:
+      en: ckanext-canada
+      fr: ckanext-canada
+    licences:
+      - URL:
+          en: 'https://github.com/open-data/ckanext-canada/blob/master/COPYING'
+          fr: 'https://github.com/open-data/ckanext-canada/blob/master/COPYING.fr'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/open-data/ckanext-canada'
+      fr: 'https://github.com/open-data/ckanext-canada'
+    tags:
+      en:
+        - CKAN Extension
+      fr:
+        - Extension CKAN
+    languages:
+      - Python
+    team:
+      en: Open Government
+      fr: Gouvernement Ouvert
+    relatedCode:
+      - URL:
+          en: 'https://github.com/ckan/ckan'
+          fr: 'https://github.com/ckan/ckan'
+        name:
+          en: CKAN
+          fr: CKAN
+    status: Maintained
+  - contact:
+      email: Christopher.Jaja@tbs-sct.gc.ca
+      name: Christopher Jaja
+    date:
+      created: '2016-06-05'
+      metadataLastUpdated: '2018-03-26'
+    description:
+      whatItDoes:
+        en: Store CKAN resources against multiple cloud providers.
+        fr: >-
+          Stocker les ressources CKAN contre plusieurs fournisseurs
+          infonuagique.
+    category: '43232300'
+    name:
+      en: ckanext-cloudstorage
+      fr: ckanext-cloudstorage
+    licences:
+      - URL:
+          en: >-
+            https://github.com/open-data/ckanext-cloudstorage/blob/master/COPYING
+          fr: >-
+            https://github.com/open-data/ckanext-cloudstorage/blob/master/COPYING.fr
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/open-data/ckanext-cloudstorage'
+      fr: 'https://github.com/open-data/ckanext-cloudstorage'
+    tags:
+      en:
+        - CKAN Extension
+      fr:
+        - Extension CKAN
+    languages:
+      - Python
+    team:
+      en: Open Government
+      fr: Gouvernement Ouvert
+    relatedCode:
+      - URL:
+          en: 'https://github.com/ckan/ckan'
+          fr: 'https://github.com/ckan/ckan'
+        name:
+          en: CKAN
+          fr: CKAN
+    status: Maintained
+  - contact:
+      email: Christopher.Jaja@tbs-sct.gc.ca
+      name: Christopher Jaja
+    date:
+      created: '2013-09-08'
+      metadataLastUpdated: '2018-03-26'
+    description:
+      whatItDoes:
+        en: 'Easy, shareable custom CKAN schemas'
+        fr: Schémas CKAN personnalisés faciles à partager
+    category: '43232300'
+    name:
+      en: ckanext-scheming
+      fr: ckanext-scheming
+    licences:
+      - URL:
+          en: 'https://github.com/ckan/ckanext-scheming/blob/master/COPYING'
+          fr: 'https://github.com/ckan/ckanext-scheming/blob/master/COPYING.fr'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/open-data/ckanext-scheming'
+      fr: 'https://github.com/open-data/ckanext-scheming'
+    tags:
+      en:
+        - CKAN Extension
+      fr:
+        - Extension CKAN
+    languages:
+      - Python
+    team:
+      en: Open Government
+      fr: Gouvernement Ouvert
+    relatedCode:
+      - URL:
+          en: 'https://github.com/ckan/ckan'
+          fr: 'https://github.com/ckan/ckan'
+        name:
+          en: CKAN
+          fr: CKAN
+    status: Maintained
+  - contact:
+      email: Christopher.Jaja@tbs-sct.gc.ca
+      name: Christopher Jaja
+    date:
+      created: '2013-04-07'
+      metadataLastUpdated: '2018-03-26'
+    description:
+      whatItDoes:
+        en: >-
+          Command line interface and Python module for accessing the CKAN Action
+          API
+        fr: >-
+          Interface en ligne de commande et un module en Python pour accéder à
+          l'API CKAN
+    category: '43232300'
+    name:
+      en: ckanapi
+      fr: ckanapi
+    licences:
+      - URL:
+          en: 'https://github.com/ckan/ckanapi/blob/master/COPYING'
+          fr: 'https://github.com/ckan/ckanapi/blob/master/COPYING.fr'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/ckan/ckanapi'
+      fr: 'https://github.com/ckan/ckanapi'
+    tags:
+      en:
+        - CKAN Tool
+      fr:
+        - Outil CKAN
+    languages:
+      - Python
+    team:
+      en: Open Government
+      fr: Gouvernement Ouvert
+    relatedCode:
+      - URL:
+          en: 'https://github.com/ckan/ckan'
+          fr: 'https://github.com/ckan/ckan'
+        name:
+          en: CKAN
+          fr: CKAN
+    status: Maintained
+  - contact:
+      email: Christopher.Jaja@tbs-sct.gc.ca
+      name: Christopher Jaja
+    date:
+      created: '2013-09-08'
+      metadataLastUpdated: '2018-03-26'
+    description:
+      whatItDoes:
+        en: Multilingual metadata fields for CKAN
+        fr: Champs de métadonnées multilingues pour CKAN
+    category: '43232300'
+    name:
+      en: ckanext-fluent
+      fr: ckanext-fluent
+    licences:
+      - URL:
+          en: 'https://github.com/ckan/ckanext-fluent/blob/master/COPYING'
+          fr: 'https://github.com/ckan/ckanext-fluent/blob/master/COPYING.fr'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/ckan/ckanext-fluent'
+      fr: 'https://github.com/ckan/ckanext-fluent'
+    tags:
+      en:
+        - CKAN Extension
+      fr:
+        - Extension CKAN
+    languages:
+      - Python
+    team:
+      en: Open Government
+      fr: Gouvernement Ouvert
+    relatedCode:
+      - URL:
+          en: 'https://github.com/ckan/ckan'
+          fr: 'https://github.com/ckan/ckan'
+        name:
+          en: CKAN
+          fr: CKAN
+    status: Maintained
+  - contact:
+      email: sebastien.lemay@hrsdc-rhdcc.gc.ca
+    date:
+      created: '2017-12-31'
+      metadataLastUpdated: '2019-12-09'
+    description:
+      whatItDoes:
+        en: >-
+          Platform for sharing open source solutions developed or used by
+          Canadian public administrations, as well as open project ideas of
+          administrations looking for partners and investors.
+        fr: >-
+          Plateforme de partage de solutions source ouverte développées ou
+          utilisées par les administrations publiques canadienne, ainsi que des
+          projets des administrations à la recherche de partenaires.
+      howItWorks:
+        en: >-
+          Users can search the platform for open source solutions and fill in
+          forms to add and modify projects. In that last case, a pull request is
+          automatically created on GitHub for the data to be updated.
+        fr: >-
+          L’utilisateur peut chercher des projets et soumettre un formulaire
+          pour ajouter et modifier un projet. Dans ce cas, une enquête est créée
+          automatiquement sur GitHub pour la mise à jour des données.
+    category: '43232300'
+    name:
+      en: Open Resource Exchange
+      fr: Échange de Ressource Ouvert
+    licences:
+      - URL:
+          en: 'https://github.com/canada-ca/ore-ero/blob/master/LICENSE.txt'
+          fr: 'https://github.com/canada-ca/ore-ero/blob/master/LICENSE.txt'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/canada-ca/ore-ero'
+      fr: 'https://github.com/canada-ca/ore-ero'
+    tags:
+      en:
+        - Website
+        - Data
+      fr:
+        - Site Web
+        - Données
+    partners:
+      - adminCode: city-of-montreal-qc
+        email: renatabianca.tomazeli@ville.montreal.qc.ca
+        name: Bianca Tomazeli
+  - contact:
+      email: GCInfoBase@tbs-sct.gc.ca
+      name: GC InfoBase Team / Équipe de l'InfoBase du GC
+    date:
+      created: '2012-08-21'
+      metadataLastUpdated: '2020-01-08'
+    description:
+      whatItDoes:
+        en: >-
+          The GC InfoBase is an interactive data-visualization tool,
+          transforming complex federal data into simple visual stories for
+          Canadians.
+        fr: >-
+          L’InfoBase du GC est un outil interactif de visualisation de données,
+          qui traduit en termes simples l’information complexe du gouvernement
+          fédéral au profit des Canadiens.
+    category: '43233500'
+    name:
+      en: GC InfoBase
+      fr: InfoBase du GC
+    licences:
+      - URL:
+          en: 'https://github.com/TBS-EACPD/infobase/blob/master/LICENSE'
+          fr: 'https://github.com/TBS-EACPD/infobase/blob/master/LICENSE'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/TBS-EACPD/infobase'
+      fr: 'https://github.com/TBS-EACPD/infobase'
+    tags:
+      en:
+        - Website
+        - Data visualization
+      fr:
+        - Site Web
+        - Visualization de données
+    homepageURL:
+      en: 'https://canada.ca/gcinfobase'
+      fr: 'https://canada.ca/infobasegc'
+    languages:
+      - JavaScript
+    status: Maintained
+    team:
+      en: EACPD EMS TBS
+      fr: DADPR SGD SCT
+  - contact:
+      email: bryan.willey@tbs-sct.gc.ca
+      name: Bryan Willey
+    date:
+      created: '2019-11-26'
+      metadataLastUpdated: '2019-11-29'
+    description:
+      whatItDoes:
+        en: >-
+          An easy and efficient system that helps government departments send
+          notifications, such as email, text messages or letters, to people who
+          use government services.
+        fr: >-
+          Un système simple et efficace qui aide les ministères du gouvernement
+          à envoyer des notifications (comme des courriels, des textos ou des
+          lettres) aux personnes qui utilisent les services gouvernement
+      howItWorks:
+        en: >-
+
+          Integrate Notify into your web application or admin system The Notify
+          API sends messages automatically. Choose a client to integrate your
+          API with your web application or admin system.
+        fr: >-
+          L’API Notification envoie les messages de façon automatique.
+          Choisissez un client pour intégrer notre API à votre application Web
+          ou à votre système administratif.
+    category: '43233500'
+    name:
+      en: Notify
+      fr: Notification
+    licences:
+      - URL:
+          en: 'https://github.com/cds-snc/notification-api/blob/master/LICENSE'
+          fr: 'https://github.com/cds-snc/notification-api/blob/master/LICENSE'
+        spdxID: MIT
+    repositoryURL:
+      en: >-
+        https://github.com/search?q=topic%3Anotification-canada-ca+org%3Acds-snc&type=Repositories
+      fr: >-
+        https://github.com/search?q=topic%3Anotification-canada-ca+org%3Acds-snc&type=Repositories
+    tags:
+      en:
+        - Notify
+      fr:
+        - Notification
+    downloadURL:
+      en: >-
+        https://github.com/search?q=topic%3Anotification-canada-ca+org%3Acds-snc&type=Repositories
+      fr: >-
+        https://github.com/search?q=topic%3Anotification-canada-ca+org%3Acds-snc&type=Repositories
+    homepageURL:
+      en: 'https://notification.alpha.canada.ca/'
+      fr: 'https://notification.alpha.canada.ca/'
+    languages:
+      - JavaScript
+      - TypeScript
+      - Python
+    status: Alpha
+    team:
+      en: Canadian Digital Service
+      fr: Service numérique canadien
+  - contact:
+      email: talent.cloud-nuage.de.talents@tbs-sct.gc.ca
+      name: TalentCloud
+    date:
+      created: '2018-01-01'
+      metadataLastUpdated: '2020-02-26'
+    description:
+      whatItDoes:
+        en: >-
+          Talent Cloud aspires to be a cross-sectoral initiative testing new
+          realities for talent in-and-out of government. This initiative is
+          designed to test the viability of a new model for recruiting and mo
+        fr: >-
+          Nuage de talent s'efforce d'être une initiative intersectorielle
+          mettant à l'essai de nouvelles réalités pour le talent à l'intérieur
+          et à l'extérieur du gouvernement. 
+    category: '43231500'
+    name:
+      en: TalentCloud
+      fr: Nuage de Talent
+    licences:
+      - URL:
+          en: 'https://github.com/GCTC-NTGC/TalentCloud/blob/dev/LICENSE'
+          fr: 'https://github.com/GCTC-NTGC/TalentCloud/blob/dev/LICENSE'
+        spdxID: MIT
+    repositoryURL:
+      en: 'https://github.com/GCTC-NTGC/TalentCloud'
+      fr: 'https://github.com/GCTC-NTGC/TalentCloud'
+    tags:
+      en:
+        - Talent
+      fr:
+        - Talent
+    homepageURL:
+      en: 'https://talent.canada.ca/en'
+      fr: 'https://talent.canada.ca/fr'
+    languages:
+      - TypeScript
+      - PHP
+      - HTML

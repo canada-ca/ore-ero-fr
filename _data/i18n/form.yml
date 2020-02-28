@@ -1,0 +1,843 @@
+---
+# Submit and Reset
+submit:
+  en: Submit
+  fr: Soumettre
+reset:
+  en: Reset
+  fr: Réinitialiser
+
+# Alerts
+alert:
+  progress:
+    en: The form is being submitted...
+    fr: Le formulaire est en cours de soumission...
+  fail:
+    en: Something went wrong! Unable to submit form.
+    fr: Quelque chose s'est mal passé! Impossible de soumettre le formulaire.
+  success:
+    en: Form was submitted!
+    fr: Le formulaire a été soumis !
+
+# Generic
+required:
+  en: Mandatory
+  fr: Obligatoire
+email: &email
+  en: Email address
+  fr: Adresse électronique
+name: &name
+  en: Name
+  fr: Nom
+URL:
+  en:
+    en: English URL
+    fr: URL anglais
+  fr:
+    en: French URL
+    fr: URL français
+  schema: &url_generic
+    en: URL
+    fr: URL
+administrations: &administrations
+  title:
+    en: Software administrations descriptions
+    fr: Description des administrations du logiciel
+
+# Presets
+presets:
+  adminCode:
+    title:
+      en: Canadian public administration
+      fr: Administration publique Canadienne
+    subTitle:
+      en: <p>See the <a href="https://github.com/canada-ca/ore-ero/tree/master/_data/administrations">data files</a> to find your administration</p>
+      fr: <p>Consultez les <a href="https://github.com/canada-ca/ore-ero/tree/master/_data/administrations">fichiers de données</a> pour trouver votre administration</p>
+    infobulle:
+      en: Select a public administration from the drop-down field or add a new one in case the administration does not exist.
+      fr: Choisir l'administration publique dans la liste ci-dessous. Créer une nouvelle au cas où l'administration n'était pas déjà dans la liste.
+    label:
+      en: Canadian public administration
+      fr: Administration publique Canadienne
+    button:
+      en: Add a new administration
+      fr: Ajouter une nouvelle administration
+    noAdmins:
+      en: No Administration
+      fr: Aucune administration
+  category:
+    title:
+      en: Category
+      fr: Catégorie
+    label:
+      en: Category
+      fr: Catégorie
+    infobulle:
+      en: Select the best fit category for the project. Categories in the drop-down list correspond to the Software Family of the UNSPSC Taxonomy codes.
+      fr: Choisir la catégorie qui correspond le plus à l'activité du projet. Les catégories proposées dans la liste correpondent à la famille des logiciels de la taxonomie UNSPSC.
+  contact:
+    title:
+      en: Contact Information
+      fr: Coordonnées de contact
+    labels:
+      name: *name
+      email: *email
+      phone:
+        en: Phone
+        fr: Téléphonne
+    infobulle:
+      en: Point of contact for general inquiries.
+      fr: Coordonnées de la personne à contacter pour des informations générales.
+      email:
+        en: Email address to contact the project. It should be an email address of where a contact can be directly reached.
+        fr: Une adresse courriel pour contacter le projet. Il devrait s'agir d'une adresse courriel à laquelle une personne-ressource peut être jointe directement.
+      name:
+        en: The name of a contact for the project.
+        fr: Le nom de la personne-ressource pour le projet.
+      phone:
+        en: The phone of the contact for the project
+        fr: Le nom de la personne-ressource à contacter.
+    titles:
+      email:
+        en: Email address to contact the project. It should be an email address of where a contact can be directly reached.
+        fr: Une adresse courriel pour contacter le projet. Il devrait s'agir d'une adresse courriel à laquelle une personne-ressource peut être jointe directement.
+      name:
+        en: The name of a contact for the project.
+        fr: Le nom de la personne-ressource pour le projet.
+      phone:
+        en: The phone of the contact for the project
+        fr: Le nom de la personne-ressource à contacter.
+  description:
+    title:
+      en: Description
+      fr: Description
+    labels:
+      whatItDoes:
+        subtitle:
+          en: What it does?
+          fr: De quoi il s'agit?
+        en:
+          en: English
+          fr: Anglais
+        fr:
+          en: French
+          fr: Français
+        schema:
+          en: What it does
+          fr: De quoi il s'agit
+      howItWorks:
+        subtitle:
+          en: How it works?
+          fr: Comment cela fonctionne?
+        en:
+          en: English
+          fr: Anglais
+        fr:
+          en: French
+          fr: Français
+        schema:
+          en: How it works
+          fr: Comment cela fonctionne
+    label:
+      schema:
+        en: Description
+        fr: Description
+    charactersLimit:
+      en: (200 characters limit)
+      fr: (limite de 200 caractères)
+    infobulle:
+      en: Add brief descriptions on what the project does and how it works.
+      fr: Ajoutez une brève description, expliquant de quoi il s'agit et comment cela fonctionne.
+      whatItDoes:
+        en: Description on what it does
+        fr: Description de ce dont it s'agit
+      howItWorks:
+        en: Description on how it works
+        fr: Description sur comment cela fonctionne
+    titles:
+      whatItDoes:
+        en: Description on what it does
+        fr: Description de ce dont it s'agit
+      howItWorks:
+        en: Description on how it works
+        fr: Description sur comment cela fonctionne
+  designStatus:
+    title:
+      en: Design use status
+      fr: Statut d'utilisation du design
+    label:
+      en: Status
+      fr: Statut
+    infobulle:
+      en: Select the design status from the drop-down field according to its use.
+      fr: Choisir le statut du design dans la liste ci-dessous, selon son utilisation.
+    options:
+      Used:
+        en: Original design
+        fr: Design original
+      Modified:
+        en: Modified version
+        fr: Version modifiée
+      Outdated:
+        en: Outdated design
+        fr: Design désuet
+  homepageURL:
+    title:
+      en: Project Homepage
+      fr: Page d'accueil du projet
+    label:
+      en:
+        en: English homepage URL
+        fr: URL en anglais
+      fr:
+        en: French homepage URL
+        fr: URL en francais
+      schema:
+        en: Homepage URL
+        fr: URL de la page d'accueil
+    infobulle:
+      en: Add the URL of the project homepage.
+      fr: Ajouter les URLs pour accéder à la page d'accueil du projet.
+  languages:
+    title:
+      en: Programming Languages
+      fr: Languages de programmation
+    label:
+      en: Programming Languages
+      fr: Languages de programmation
+    button:
+      en: Add more languages
+      fr: Ajouter un langage
+    infobulle:
+      en: Select the programming languages that are used in the project. Add new ones in case the programming languages are not listed.
+      fr: Choisir les languages de programmation utilisés pour ce projet. Ajouter un language au cas où celui-ci n'était pas présent dans la liste.
+  licences:
+    title:
+      en: Project Licenses
+      fr: Licences du projet
+    labels:
+      URL:
+        en:
+          en: English licence URL
+          fr: URL en anglais de la licence
+        fr:
+          en: French licence URL
+          fr: URL en français de la licence
+        schema: *url_generic
+      spdxID:
+        en: The SPDX License identifier - Search the List of licenses <a href="https://spdx.org/licenses/" target="_blank">List of licences</a>.
+        fr: Identifiant SPDX de la licence - Consultez la liste des licenses <a href="https://spdx.org/licenses/" target="_blank">Liste des licences</a>.
+    infobulle:
+      en: Search the list of licenses to find the SPDX license identifier according to the project license's name. Add the URLs of the license's repository.
+      fr: Choisissez l'identifiant SPDX de la licence utilisée selon son nom, en consultant la liste des licences. Ajoutez les URLs pour accéder au fichier de la licence du projet.
+      spdxID:
+        en: Search the list of licenses to find the SPDX license identifier according to the project license's name. Add the URLs of the license's repository.
+        fr: Choisissez l'identifiant SPDX de la licence utilisée selon son nom, en consultant la liste des licences. Ajoutez les URLs pour accéder au fichier de la licence du projet.
+    titles:
+      URL:
+        en: The English and French URLs of licence.
+        fr: L'URL de la licence en français et en anglais.
+      spdxID:
+        en: SPDX Licence identifier
+        fr: Identifiant de licence SPDX
+  name:
+    charactersLimit:
+      en: (100 characters limit)
+      fr: (limite de 100 caractères)
+  orgLevel: &orgLevel
+    title: &title
+      en: Level of government
+      fr: Niveau de gouvernement
+    label: *title
+    infobulle:
+      en: Select the level of government the administration belongs to.
+      fr: Sélectionnez le niveau de gouvernement auquel l'administration appartient.
+  orgLevelPartner: *orgLevel
+  partners:
+    title:
+      en: Key Partners
+      fr: Partenaires
+    labels:
+      adminCode:
+        en: Admin code
+        fr: Code de l'administration
+      email: &partnerEmail
+        en: Contact email
+        fr: Addresse courriel du contact
+      name:
+        en:
+          en: English name
+          fr: Nom anglais
+        fr:
+          en: French name
+          fr: Nom français
+        schema:
+          en: Administration name
+          fr: Nom de l'administration
+      contactemail: *partnerEmail
+      contactname:
+        en: Name of the contact
+        fr: Nom du contact
+    label:
+      en: Select an administration or create a new one.
+      fr: Sélectionnez une administration ou créez en une nouvelle.
+    titles:
+      adminCode:
+        en: The administration code for the partner.
+        fr: Le code de l'administration en partenariat au projet.
+      email:
+        en: The email address to contact the partner.
+        fr: L'adresse courriel pour contacter le partenaire.
+      name:
+        en: The name of the contact in the administration partnering on the project.
+        fr: Le nom du contact de l'administration en partenariat.
+    infobulle:
+      en: Contact information of each group partnering on the project.
+      fr: Coordonnées de contact des groupes partenaires du projet.
+      adminCode:
+        en: The administration code for the partner.
+        fr: Le code de l'administration en partenariat au projet.
+      email:
+        en: The email address to contact the partner.
+        fr: L'adresse courriel pour contacter le partenaire.
+      name:
+        en: The name of the contact in the administration partnering on the project.
+        fr: Le nom du contact de l'administration en partenariat.
+  provinceSelect: &provinceSelect
+    title: &title
+      en: Province
+      fr: province
+    label: *title
+    infobulle:
+      en: Select a province
+      fr: Sélectionnez une province
+  province: *provinceSelect  # Simplifies schema build
+  provinceSelectPartner: *provinceSelect
+  relatedCode:
+    title:
+      en: Related Softwares
+      fr: Logiciels connexes
+    labels:
+      URL:
+        en:
+          en: English URL
+          fr: URL en anglais
+        fr:
+          en: French URL
+          fr: URL en francais
+        schema: *url_generic
+      name:
+        en:
+          en: English name
+          fr: Nom en anglais
+        fr:
+          en: French name
+          fr: Nom en français
+        schema: *name
+    infobulle:
+      en: Add general information about each library, framework, API or other related software that is used in the project.
+      fr: Ajouter des informations générales concernant chaque bibliothèque, plate-forme, API ou logiciel connexe utilisé dans le projet.
+      URL:
+        en: The english and french URLs of related software.
+        fr: L'URL anglais et francais d'un logiciel connexe.
+      name:
+        en: The english and french name of related software.
+        fr: Le nom d'un logiciel connexe en anglais et en francais.
+    titles:
+      URL:
+        en: The english and french URLs of related software.
+        fr: L'URL anglais et francais d'un logiciel connexe.
+      name:
+        en: The english and french name of related software.
+        fr: Le nom d'un logiciel connexe en anglais et en francais.
+  schemaVersion:
+    title:
+      en: The version of the ORE metadata schema for open source code. This is currently version 1.0.
+      fr: La version du schéma de métadonnées ORE pour code soure ouvert. Il s'agit actuellement de la version 1.0.
+    label:
+      en: ORE metadata schema version
+      fr: Version du schéma de métadonnées de l'ERO
+    infobulle:
+      en: The version of the ORE metadata schema for open source code. This is currently version 1.0.
+      fr: La version du schéma de métadonnées ORE pour code soure ouvert. Il s'agit actuellement de la version 1.0.
+  submitter:
+    title:
+      en: Submitter Contact Information
+      fr: Coordonnées du soumissionnaire
+    labels:
+      username: *name
+      email: *email
+    infobulle:
+      en: Contact information of the person submitting this form.
+      fr: Ajouter les coordonnées du soumissionaire déposant le présent formulaire.
+  status:
+    title:
+      en: Project Development Status
+      fr: Statut de développement du projet
+    label:
+      en: Status
+      fr: Statut
+    infobulle:
+      en: Select the project development status from the drop-down field according to its current life cycle stage.
+      fr: Choisir le statut de développement du projet dans la liste ci-dessous, selon sa phase de cycle de vie.
+    options:
+      alpha:
+        en: Alpha
+        fr: Alpha
+      beta:
+        en: Beta
+        fr: Beta
+      maintained:
+        en: Maintained
+        fr: Maintenu
+      deprecated:
+        en: Deprecated
+        fr: Déprécié
+      retired:
+        en: Retired
+        fr: Retraité
+  tags:
+    title:
+      en: Tags
+      fr: Mots-clés
+    label:
+      en:
+        en: English tags
+        fr: Mots-clés en anglais
+      fr:
+        en: French tags
+        fr: Mots-clés en français
+      schema:
+        en: Tags
+        fr: Étiquettes
+    button:
+      en: Add more tags
+      fr: Ajouter d'autres mots-clés
+    infobulle:
+      en: Add keywords to help distinguish between various instances.
+      fr: Ajouter des mots-clés pour différencier entre les différents instances.
+  team:
+    title:
+      en: Team, branch or sector
+      fr: Équipe, direction ou secteur
+    infobulle:
+      en: Add the name of the team, branch or sector within the public administration to which this belongs. For example, the Canadian Digital Services is a sector within the federal administration Treasury Board of Canada Secretariat.
+      fr: Ajouter le nom de l'équipe, direction ou secteur de l'administration publique auquel ceci appartient. Par exemple, le Service Numérique Canadien est une direction sous l'administration publique fédérale Scerétariat du Conseil du Trésor.
+    label:
+      en:
+        en: English name
+        fr: Nom en anglais
+      fr:
+        en: French name
+        fr: Nom en français
+      schema:
+        en: Team
+        fr: Équipe
+  designType:
+    title:
+      en: Design Type
+      fr: Type de design
+    label:
+      en: Select a type
+      fr: Selectionner un type
+    infobulle:
+      en: Select types to categorize this design.
+      fr: Selectionner des types pour catégoriser ce design.
+  newType:
+    label:
+      en:
+        en: English type
+        fr: Type en anglais
+      fr:
+        en: French type
+        fr: Type en français
+    button:
+      en: Add new type
+      fr: Ajouter un nouveau type
+  
+  uses:
+    title:
+      en: Informations about software users.
+      fr: Information à propos des utilisateurs du logiciel
+  date:
+    title:
+      en: Started using
+      fr: Date de début d'utilisation
+    label:
+      en: Started using
+      fr: Date de début d'utilisation
+    infobulle:
+      en: Select the date when the public administration started using the software.
+      fr: Choisir la date lorsque l'administration publique a commencé à utiliser le logiciel.
+
+# Code form specifics
+code:
+  name:
+    title:
+      en: Project Name
+      fr: Nom du projet
+    infobulle:
+      en: Add the name of the project.
+      fr: Ajouter le nom du projet.
+    label:
+      en:
+        en: English name
+        fr: Nom en anglais
+      fr:
+        en: French name
+        fr: Nom en français
+      schema:
+        en: Project Name
+        fr: Nom du projet
+    labels:
+      select:
+        en: If you wish to update information of a code that already exists in our library, please select it below
+        fr: Si vous souhaitez mettre à jour les données d'un code déjà ajouté au catalogue, veuillez le sélectionner de la liste
+  date:
+    title:
+      en: Creation Date
+      fr: Date de création du projet
+    label:
+      en: Creation Date
+      fr: Date de création du projet
+    infobulle:
+      en: Select the date when the open source code was first created
+      fr: Sélectionner la date de création du code source ouvert.
+  downloadUrl:
+    title:
+      en: Project Download Page
+      fr: Téléchargement du projet
+    label:
+      en:
+        en: English download URL
+        fr: URL en anglais
+      fr:
+        en: French download URL
+        fr: URL en francais
+      schema:
+        en: Download URL
+        fr: URL de téléchargement
+    infobulle:
+      en: The URL of the project download page, where a distribution of the project can be found.
+      fr: Ajouter les URLs pour télécharger le projet
+  repositoryUrl:
+    title:
+      en: Project Public Repository
+      fr: Répertoire public du projet
+    label:
+      en:
+        en: English repository URL
+        fr: URL en anglais
+      fr:
+        en: French repository URL
+        fr: URL en francais
+      schema:
+        en: Code Repository URL
+        fr: URL du dépôt de code
+    infobulle:
+      en: The URL of the public release repository, where the code is hosted.
+      fr: Ajouter les URLs du répertoire public du projet, où le code est hébergé.
+  releases:
+    title:
+      en: Information for each project or source code published.
+      fr: Informations pour chaque projet ou code source publié.
+
+# Software form specifics
+software:
+  name:
+    title:
+      en: Project Name
+      fr: Nom du projet
+    label:
+      en:
+        en: English project name
+        fr: Nom du projet en anglais
+      fr:
+        en: French project name
+        fr: Nom du projet en français
+      schema:
+        en: Project Name
+        fr: Nom du projet
+    labels:
+      select:
+        en: If you wish to update information of a software that already exists in our library, please select it below
+        fr: Si vous souhaitez mettre à jour les données d'un logiciel déjà ajouté au catalogue, veuillez le sélectionner de la liste
+    infobulle:
+      en: Add the name of the open source software
+      fr: Ajouter le nom du logiciel libre
+  date:
+    title:
+      en: Started using
+      fr: Date de début d'utilisation
+    label:
+      en: Started using
+      fr: Date de début d'utilisation
+    infobulle:
+      en: Select the date when the public administration started using the software.
+      fr: Choisir la date lorsque l'administration publique a commencé à utiliser le logiciel.
+  administrations: *administrations
+  uses:
+    title:
+      en: Informations about software users.
+      fr: Information à propos des utilisateurs du logiciel
+
+# Standard form specifics
+standard:
+  name:
+    title:
+      en: Standard Name
+      fr: Nom de la norme
+    infobulle:
+      en: Add the name of the standard.
+      fr: Ajouter le nom de la norme.
+    label:
+      en:
+        en: English name
+        fr: Nom en anglais
+      fr:
+        en: French name
+        fr: Nom en français
+      schema:
+        en: Project Name
+        fr: Nom du projet
+    labels:
+      select:
+        en: If you wish to update information of a standard that already exists in our library, please select it below.
+        fr: Si vous souhaitez mettre à jour les données d'une norme ouverte se trouvant déjà dans notre catalogue, veuillez la sélectionner parmi la liste ci-dessous.
+  date:
+    title:
+      en: Started using
+      fr: Date de début d'utilisation
+    label:
+      en: Started using
+      fr: Date de début d'utilisation
+    infobulle:
+      en: Select the date when the public administration started using the standard.
+      fr: Choisir la date lorsque l'administration publique a commencé à utiliser la norme.
+  specURL:
+    title:
+      en: Specification URLs
+      fr: URLs de la spécification
+    label:
+      en:
+        en: English URL
+        fr: Url en anglais
+      fr:
+        en: French URL
+        fr: Url en français
+      schema:
+        en: Specification URL
+        fr: Url de la spécification
+    infobulle:
+      en: Add the URL of the standard's specification, released usually by the Standard Setting Organization.
+      fr: Ajouter le URL de la spécification de la norme, publiée normalement par l'organization normative du standard.
+  standardAcronym:
+    title:
+      en: Standard Acronym
+      fr: Acronyme de la norme
+    label:
+      en: Standard Acronym
+      fr: Acronyme de la norme
+    labels:
+      select:
+        en: If you wish to update information of a standard that already exists in our library, please select it below
+        fr: Si vous souhaitez mettre à jour les données d'une norme ajoutée déjà au catalogue, veuillez la sélectionner de la liste
+    infobulle:
+      en: Enter the short name or acronym for the new standard.
+      fr: Entrer l'acronyme de la norme ouverte.
+  standardOrg:
+    title:
+      en: Standard Setting Organization
+      fr: Organisation normative
+    label:
+      en:
+        en: English name
+        fr: Nom en anglais
+      fr:
+        en: French name
+        fr: Nom en français
+      schema:
+        en: Organization name
+        fr: Nom de l'organisation
+    infobulle:
+      en: Add the name of the organization developing, coordinating, promulgating, revising, amending, reissuing, interpreting or producing the standard.
+      fr: Ajouter le nom de l'organization de standardisation qui développe, coordonne, promulgue, révise, modifie, interprète publie ou produit la norme.
+  status:
+    title:
+      en: Standard Status
+      fr: Statut de la norme
+    label:
+      en: Status
+      fr: Status
+    options:
+      deprecated:
+        en: Deprecated
+        fr: Obsolète
+      mandatory:
+        en: Mandatory
+        fr: Obligatoire
+      preferred:
+        en: Preferred
+        fr: Préféré
+    infobulle:
+      en: Select the status of the standard from the drop-down list. In most cases, the status is set in the reference of the standard.
+      fr: Choisir le statut de la norme de la liste ci-dessous. Normalement, ce statut est défini dans la référence de la norme.
+  reference:
+    title:
+      en: Reference for the standard
+      fr: Référence de la norme
+    labels:
+      URL:
+        en:
+          en: English URL
+          fr: Url en anglais
+        fr:
+          en: French URL
+          fr: Url  en français
+        schema: *url_generic
+      name:
+        en:
+          en: English Name
+          fr: Nom en anglais
+        fr:
+          en: French Name
+          fr: Nom en français
+        schema: *name
+    titles:
+      URL:
+        en: The English and French URLs of the reference.
+        fr: L'URL de la référence en français et en anglais.
+      name:
+        en: The English and French name of the reference.
+        fr: Le nom de la référence en français et en anglais.
+    infobulle:
+      en: Add the name and the URL of the public administration's policy, directive or research that references this open standard.
+      fr: Ajouter le nom et le URL de la politique, directive ou recherche de l'administration publique qui réfère à cette norme.
+  administrations: *administrations
+
+# Admin form specifics
+admin:
+  newAdmin:
+    title:
+      en: New Administration
+      fr: Nouvelle administration
+  newAdminCode: &newAdminCode
+    title:
+      en: Administration Code
+      fr: Code de l'administration
+    label:
+      en: The code for the new administration
+      fr: Le code de la nouvelle administration
+    infobulle:
+      en: Add the unique code for the administration
+      fr: Ajouter le code unique pour l'administration
+  newAdminName: &newAdminName
+    title:
+      en: Public Administration Name
+      fr: Nom de l'administration publique
+    label:
+      en:
+        en: English Name
+        fr: Nom en anglais
+      fr:
+        en: Name in french
+        fr: Nom en français
+      schema: *name
+    infobulle:
+      en: Add the name of the administration
+      fr: Inscrire le nom de l'administration
+  code: *newAdminCode  # simplifies schema build
+  name: *newAdminName  # simplifies schema build
+  administrations:  # simplifies schema build
+    title:
+      en: The list of administrations for a specific organization level (corresponding with the file name)
+      fr: La liste des organisations pour un niveau de gouvernement spécifique (correspondant au nom du fichier)
+
+# Future project form specifics
+partnership:
+  name:
+    title:
+      en: Project Name
+      fr: Nom du projet
+    label:
+      en:
+        en: English project name
+        fr: Nom du projet en anglais
+      fr:
+        en: French project name
+        fr: Nom du projet en français
+      schema:
+        en: Project Name
+        fr: Nom du projet
+    labels:
+      select:
+        en: If you wish to update information of a project that already exists in our library, please select it below
+        fr: Si vous souhaitez mettre à jour les données d'un projet déjà ajouté au catalogue, veuillez le sélectionner de la liste
+    infobulle:
+      en: Add the name of the project
+      fr: Ajouter le nom du projet
+  date:
+    title:
+      en: Search period dates
+      fr: Dates de la période de recherche
+    labels:
+      started:
+        en: Beginning of the search period
+        fr: Début de la période de recherche
+      closed:
+        en: End of the search period
+        fr: Fin de la période de recherche
+    infobulle:
+      en: Select the period when the project is searching for partners.
+      fr: Sélectionner la période pendant laquelle le projet est en recherche de partenaires.
+    titles:
+      started:
+        en: The date when the project started searching for partners (in format YYYY-MM-DD)
+        fr: La date où le projet à débuté sa recherche de partenaires (au format AAAA-MM-JJ)
+      closed:
+        en: THe date when the project will stop or has stopped searching for partners (in format YYYY-MM-DD)
+        fr: La date où le project terminera ou a terminé sa recherche de partenaires (au format AAAA-MM-JJ)
+  projects:
+    title:
+      en: Informations about each project
+      fr: Information à propos de chacun des projects
+
+# Future project form specifics
+design:
+  name:
+    title:
+      en: Project Name
+      fr: Nom du projet
+    label:
+      en:
+        en: English project name
+        fr: Nom du projet en anglais
+      fr:
+        en: French project name
+        fr: Nom du projet en français
+      schema:
+        en: Project Name
+        fr: Nom du projet
+    labels:
+      select:
+        en: If you wish to update information of a design that already exists in our library, please select it below
+        fr: Si vous souhaitez mettre à jour les données d'un design déjà ajouté au catalogue, veuillez le sélectionner de la liste
+    infobulle:
+      en: Add the name of the open design
+      fr: Ajouter le nom du design libre
+  date:
+    title:
+      en: Started using
+      fr: Date de début d'utilisation
+    label:
+      en: Started using
+      fr: Date de début d'utilisation
+    infobulle:
+      en: Select the date when the public administration started using the design.
+      fr: Choisir la date lorsque l'administration publique a commencé à utiliser le design.
+  administrations: *administrations
+  uses:
+    title:
+      en: Informations about design users.
+      fr: Information à propos des utilisateurs du design
+  

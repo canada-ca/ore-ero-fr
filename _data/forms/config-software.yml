@@ -1,0 +1,19 @@
+---
+id: software
+
+formGroups:
+  - preset: selectSoftware
+  - preset: description
+  - preset: category
+  - preset: tags
+  - preset: homepageURL
+    param: {type: url}
+  - preset: licences
+    param: {more: true}
+  - preset: empty
+    title: administrations
+    param: {start: true}
+  - preset: adminCode
+  - preset: uses
+    param: {more: true}
+  - preset: empty

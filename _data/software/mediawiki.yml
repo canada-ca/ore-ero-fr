@@ -1,0 +1,46 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: 'Wiki package written in PHP, originally for use on Wikipedia.'
+    fr: Ensemble Wiki développé à l'origine pour Wikipédia.
+category: '43232100'
+homepageURL:
+  en: 'https://www.mediawiki.org/wiki/MediaWiki'
+  fr: 'https://www.mediawiki.org/wiki/MediaWiki/fr'
+licences:
+  - URL:
+      en: 'https://www.mediawiki.org/wiki/Topic:Tg9b5hes4ue3vdix'
+      fr: 'https://www.mediawiki.org/wiki/Topic:Tg9b5hes4ue3vdix'
+    spdxID: GPL-2.0-only
+name:
+  en: MediaWiki
+  fr: MediaWiki
+tags:
+  en:
+    - Wiki
+    - Website
+  fr:
+    - Wiki
+    - Site Web
+administrations:
+  - adminCode: tbs-sct
+    uses:
+      - contact:
+          email: ilia.salem@tbs-sct.gc.ca
+        date:
+          started: '2019-05-06'
+          metadataLastUpdated: '2019-05-16'
+      - contact:
+          email: ilia.salem@tbs-sct.gc.ca
+        date:
+          started: '2019-05-06'
+          metadataLastUpdated: '2019-05-16'
+  - adminCode: eccc
+    uses:
+      - contact:
+          email: noreply@canada.ca
+          name: ECCC-ECCC
+        date:
+          started: '2010-01-01'
+          metadataLastUpdated: '2020-01-31'

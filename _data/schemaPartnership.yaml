@@ -1,0 +1,36 @@
+---
+include('partnership', strict=True)
+---
+partnership:
+  schemaVersion: str()
+  adminCode: str()
+  projects: list(include('project'))
+
+project:
+  contact:
+    email: str()
+    name: str(required=False)
+    phone: str(required=False)
+  category: str()
+  date:
+    closed: str()
+    started: str()
+    metadataLastUpdated: str()
+  description:
+    whatItDoes: include('lang')
+    howItWorks: include('lang', required=False)
+  name: include('lang')
+  partners: list(include('partner'), required=False)
+  tags:
+    en: list(str())
+    fr: list(str())
+  team: include('lang', required=False)
+
+partner:
+  adminCode: str()
+  email: str()
+  name: str()
+
+lang:
+  en: str()
+  fr: str()

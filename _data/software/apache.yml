@@ -1,0 +1,47 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: Cross-platform web server.
+    fr: Serveur Web multiplateforme.
+category: '43232700'
+homepageURL:
+  en: 'https://httpd.apache.org'
+  fr: 'https://httpd.apache.org'
+licences:
+  - URL:
+      en: 'https://www.apache.org/licenses/LICENSE-2.0.txt'
+      fr: 'https://www.apache.org/licenses/LICENSE-2.0.txt'
+    spdxID: Apache-2.0
+name:
+  en: Apache
+  fr: Apache
+tags:
+  en:
+    - HTTP Server
+  fr:
+    - Serveur HTTP
+administrations:
+  - adminCode: gac-amc
+    uses:
+      - contact:
+          email: sebastien.routier@international.gc.ca
+        date:
+          started: '2019-05-06'
+          metadataLastUpdated: '2019-05-16'
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: noreply@canada.ca
+          name: AAFC-AAC
+        date:
+          started: '2000-01-01'
+          metadataLastUpdated: '2020-01-14'
+  - adminCode: eccc
+    uses:
+      - contact:
+          email: noreply@canada.ca
+          name: ECCC-ECCC
+        date:
+          started: '2010-01-01'
+          metadataLastUpdated: '2020-01-30'

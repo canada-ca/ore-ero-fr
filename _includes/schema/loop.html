@@ -1,0 +1,25 @@
+<ul class="list-unstyled">
+{% include schema/presets/schemaVersion.html %}
+{% for formGroup in site.data.forms[page.config].formGroups -%}
+
+{%- capture id -%}{{ site.data.forms[page.config].id }}{%- endcapture -%}
+
+{%- if formGroup.preset == 'empty' -%}
+  {%- assign type = 'presets' -%}
+  {%- assign title = formGroup.title -%}
+  {%- assign file = formGroup.preset -%}
+{%- elsif formGroup.preset -%}
+  {%- assign type = 'presets' -%}
+  {%- assign title = formGroup.preset -%}
+  {%- assign file = formGroup.preset -%}
+{% elsif formGroup.widget %}
+  {%- assign type = 'widgets' -%}
+  {%- assign title = formGroup.title -%}
+  {%- assign file = formGroup.widget -%}
+{%- endif -%}
+
+{%- capture path -%}schema/{{ type }}/{{ file }}.html{%- endcapture -%}
+{%- include {{ path }} param=formGroup.param id=id idPreset="presets" title=title fields=formGroup.fields -%}
+
+{% endfor %}
+</ul>

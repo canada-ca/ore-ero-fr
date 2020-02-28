@@ -1,0 +1,16 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jquery": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "off"
+  }
+}

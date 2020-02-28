@@ -1,0 +1,52 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: >-
+      Laravel Enterprise Starter Kit, is a template project based on the Laravel
+      framework, combining a set of features that can kick start any Web
+      application.
+    fr: >-
+      Laravel Enterprise Starter Kit, est un projet de modèle basé sur le
+      framework Laravel, combinant un ensemble de fonctionnalités qui peuvent
+      démarrer n'importe quelle application Web.
+category: '43232400'
+homepageURL:
+  en: 'https://lesk.it'
+  fr: 'https://lesk.it'
+licences:
+  - URL:
+      en: 'https://github.com/leskhq/Laravel-Enterprise-Starter-Kit/blob/master/LICENSE.md'
+      fr: 'https://github.com/leskhq/Laravel-Enterprise-Starter-Kit/blob/master/LICENSE.md'
+    spdxID: GPL-3.0-only
+  - URL:
+      en: 'https://github.com/leskhq/Laravel-Enterprise-Starter-Kit/blob/master/LICENSE.md'
+      fr: 'https://github.com/leskhq/Laravel-Enterprise-Starter-Kit/blob/master/LICENSE.md'
+    spdxID: Apache-2.0
+name:
+  en: LESK
+  fr: LESK
+tags:
+  en:
+    - HTTP Server
+    - PHP
+    - Laravel
+  fr:
+    - Serveur HTTP
+    - PHP
+    - Laravel
+administrations:
+  - adminCode: gac-amc
+    uses:
+      - contact:
+          email: terry.oreilly@international.gc.ca
+          name: Terry O'Reilly
+        date:
+          started: '2019-05-06'
+          metadataLastUpdated: '2019-05-15'
+      - contact:
+          email: yves.cloutier@international.gc.ca
+          name: Yves Cloutier
+        date:
+          started: '2019-05-06'
+          metadataLastUpdated: '2019-05-15'

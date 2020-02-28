@@ -1,0 +1,18 @@
+<li>
+  <details open>
+    <summary>{{ include.title }} {% include schema/components/required.html required=include.param.required %} [array]</summary>
+    <p>{{ site.data.i18n.form[include.id][include.title].title[page.lang] }}</p>
+    <ul class="list-unstyled">
+      {%- for field in include.fields -%}
+        {%- case field.widget -%}
+          {%- when 'string' -%}
+            {%- include schema/components/li-group.html id=include.id title=include.title group=field.title param=field.param -%}
+          {%- when 'string-i18n' -%}
+            {%- include schema/components/li-i18n-group.html id=include.id title=include.title group=field.title param=field.param -%}
+          {%- when 'select' -%}
+          {%- include schema/components/li-group.html id=include.id title=include.title group=field.title param=field.param -%}
+        {%- endcase -%}
+      {%- endfor -%}
+    </ul>
+  </details>
+</li>

@@ -1,0 +1,27 @@
+{%- assign title = "languages" -%}
+
+<div class="form-group">
+  <label class="h2">
+    <span class="field-name">
+      {{ site.data.i18n.form[include.idPreset][title].label[page.lang] }}
+      <span data-toggle="tooltip" data-placement="top" title="{{ site.data.i18n.form[include.idPreset][title].infobulle[page.lang] }}" class="glyphicon glyphicon-question-sign small" aria-hidden="true"></span>
+    </span>
+  </label>
+  {%- assign lang_arr = "" | split: "," -%}
+  {%- for govLevels in site.data.code -%}
+  {%- for admins in govLevels[1] -%}
+    {%- for release in admins[1].releases -%}
+      {%- for language in release.languages -%}
+        {%- assign lang_arr = lang_arr  | push: language -%}
+      {%- endfor -%}
+    {%- endfor -%}
+    {%- endfor -%}
+  {%- endfor %}
+  <div id="{{ title }}" class="form-group">
+    {%- assign lang_arr = lang_arr | uniq  -%}
+    {%- for language in lang_arr %}
+    <div class="checkbox"><label><input class="{{ language }}" data-for="languages" type="checkbox" value="{{ language }}" name="{{ language }}">{{ language }}</label></div>
+    {%- endfor %}
+  </div>
+  <button type="button" class="btn btn-primary" onclick="addMoreLanguages()"><i class="glyphicon glyphicon-plus"></i> {{ site.data.i18n.form.[include.idPreset][title].button[page.lang] }}</button>
+</div>

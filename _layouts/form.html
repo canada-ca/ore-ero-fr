@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="wb-frmvld mrgn-tp-lg">
+  <form action="#" method="get" id="validation">
+{%- assign idPreset = "presets" %}
+
+{% include form/loop.html idPreset=idPreset %}
+{%- include form/presets/submitter.html idPreset=idPreset %}
+    <button id="prbotSubmit{{ page.ref }}" type="button" class="btn btn-primary">{{ site.data.i18n.form.submit[page.lang] }}</button>
+    <button id="formReset" type="reset" class="btn btn-default">{{ site.data.i18n.form.reset[page.lang] }}</button>
+
+    <div class="mrgn-tp-md">
+      <div id="prbotSubmitAlertInProgress" class="alert alert-warning hide">
+        <b>{{ site.data.i18n.form.alert.progress[page.lang] }}</b>
+      </div>
+      <div id="prbotSubmitAlertFail" class="alert alert-danger hide">
+        <b>{{ site.data.i18n.form.alert.fail[page.lang ]}}</b>
+      </div>
+      <div id="prbotSubmitAlertSuccess" class="alert alert-success hide">
+        <b>{{ site.data.i18n.form.alert.success[page.lang] }}</b>
+      </div>
+    </div>
+
+  </form>
+</div>

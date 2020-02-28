@@ -1,0 +1,21 @@
+---
+federal:
+  en: Federal
+  fr: Fédéral
+  value: federal
+provincial:
+  en: Provincial
+  fr: Provincial
+  value: provincial
+municipal:
+  en: Municipal
+  fr: Municipal
+  value: municipal
+aboriginal:
+  en: Aboriginal
+  fr: Autochtone
+  value: aboriginal
+others:
+  en: Others
+  fr: Autres
+  value: others
