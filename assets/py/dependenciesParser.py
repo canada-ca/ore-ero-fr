@@ -26,6 +26,7 @@ def createDirectory(dir, path):
 def updateData(dependencies):
     with open("./_data/dependencies.yaml", 'w') as file:
         file.write("---")
+        dependencies.sort(key=lambda item: item.get("dependency"), reverse=False)
         for value in dependencies:
             if '@' in value["dependency"]:
                 file.write("\n" + "- dependency: '" + value["dependency"] + "'")
@@ -210,6 +211,10 @@ def parseRequirements(name, depObj, repo):
     data = requirements.text
     if data is not None:
         for dep in data.splitlines():
+            if dep.startswith( "#" ):
+              continue
+            if dep.startswith( "-e " ):
+              dep = dep[3:]
             key = dep.split("=")[0].split("<")[0].split(">")[0]
             corepypi = False
             for val in depObj:
@@ -388,4 +393,3 @@ if data is not None:
                 release["name"]["fr"], admin["adminCode"]))
 getDependencies(repositories)
 print("Finished task at: " + datetime.now().isoformat(' ', 'seconds'))
-    
